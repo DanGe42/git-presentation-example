@@ -2,7 +2,7 @@
 
 int main (int argc, char** argv) {
     int i;
-    for (i = 1; i <= 100; i++) {
+    for (i = 1; i <= 200; i++) {
         if (i % 3 == 0 && i % 5 != 0) {
             printf("fizz\n");
         } else if (i % 5 == 0 && i % 3 != 0) {
@@ -12,5 +12,5 @@ int main (int argc, char** argv) {
         }
     }
 
-    return 1;
+    return 0;
 }
